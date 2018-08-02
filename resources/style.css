@@ -1,0 +1,179 @@
+body {
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  height: 69px;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+header img {
+  padding-left: 10px;
+  display: inline-flex;
+  height: 50px;
+}
+
+.navigation {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.navigation a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 20px 10px;
+}
+
+.content {
+  position: relative;
+  top: 70px;
+}
+
+.granola {
+  background-image: url("./images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+.mission {
+  background-color: black;
+  flex-direction: column;
+  width: 100%;
+  align-self: center;
+  justify-content: center;
+
+}
+
+.mission h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+.mission h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.month {
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.steeping {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.toprow {
+  display: flex;
+  margin: 0 auto;
+}
+.bottomrow {
+  display: flex;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.product {
+  width: 300px;
+  padding: 15px;
+}
+
+.product img {
+  width: 300px;
+  height: 200px;
+}
+
+.product h4 {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.locations {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  background-image: url("./images/img-locations-background.jpg");
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.locations h2 {
+  margin: 0;
+}
+.addresses {
+  display: flex;
+  width: 980px;
+  justify-content: space-between;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.store {
+  width: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.store span {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.store h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.contact {
+  margin: 0 auto;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact h2 {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.contact h5 {
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
